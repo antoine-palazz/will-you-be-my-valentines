@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    minify: 'terser',
+    minify: 'esbuild', // Utilise esbuild (inclus avec Vite) au lieu de terser
     sourcemap: false
   },
   
